@@ -1,16 +1,16 @@
 # Use official Tomcat
 FROM tomcat:9-jdk11
 
-# Set environment variables
+# Increase memory (optional)
 ENV CATALINA_OPTS="-Xms512m -Xmx1024m"
 
-# Remove default ROOT webapp
+# Remove default ROOT app
 RUN rm -rf /usr/local/tomcat/webapps/ROOT
 
-# Copy your WAR to Tomcat webapps
+# Copy your WAR file
 COPY referenceccdaservice.war /usr/local/tomcat/webapps/ROOT.war
 
-# Copy configuration folders (if required)
+# Copy full config folder (this includes configs_folder, scenarios, and vocabulary)
 COPY config /usr/local/tomcat/config
 
 # Expose port
