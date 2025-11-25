@@ -12,7 +12,6 @@ COPY referenceccdaservice.war /usr/local/tomcat/webapps/ROOT.war
 
 # Copy configuration folders (if required)
 COPY config /usr/local/tomcat/config
-COPY vocab /usr/local/tomcat/vocab
 
 # Expose port
 EXPOSE 8080
