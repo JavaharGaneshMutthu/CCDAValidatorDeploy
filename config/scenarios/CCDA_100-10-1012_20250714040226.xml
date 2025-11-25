@@ -1,0 +1,1276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:voc="urn:hl7-org:v3/voc" xmlns:sdtc="urn:hl7-org:sdtc" moodCode="EVN" xmlns="urn:hl7-org:v3">
+  <realmCode code="US" />
+  <typeId root="2.16.840.1.113883.1.3" extension="POCD_HD000040" />
+  <templateId root="2.16.840.1.113883.10.20.22.1.1" extension="2015-08-01" />
+  <templateId root="2.16.840.1.113883.10.20.22.1.1" />
+  <templateId root="2.16.840.1.113883.10.20.22.1.2" extension="2015-08-01" />
+  <templateId root="2.16.840.1.113883.10.20.22.1.2" />
+  <id root="1.1.1.1.1.1.1.1.20250714103042" extension="100-10-1012" />
+  <code code="34133-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+  <title>Patient Request</title>
+  <effectiveTime value="20250410" />
+  <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25" />
+  <languageCode code="eng" />
+  <recordTarget typeCode="RCT" contextControlCode="OP">
+    <patientRole classCode="PAT">
+      <id root="2.16.840.1.113883.4.6" extension="100101012" />
+      <addr use="HP">
+        <streetAddressLine>12 arizon11 ny street11</streetAddressLine>
+        <city>SOUTH LIMA</city>
+        <state>NY</state>
+        <postalCode>14558</postalCode>
+        <country>US</country>
+      </addr>
+      <telecom value="tel:1234567890" use="HP" />
+      <patient classCode="PSN" determinerCode="INSTANCE">
+        <name use="L">
+          <family>KISS</family>
+          <given>KAREN</given>
+          <given>M</given>
+        </name>
+        <administrativeGenderCode code="F" codeSystem="2.16.840.1.113883.5.1" displayName="Female" />
+        <birthTime value="19441112" />
+        <maritalStatusCode code="M" codeSystem="2.16.840.1.113883.5.2" codeSystemName="MaritalStatusCode" displayName="UNKNOWN" />
+        <religiousAffiliationCode nullFlavor="NA" />
+        <raceCode code="2106-3" codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race and Ethnicity - CDC" displayName="White" />
+        <sdtc:raceCode nullFlavor="UNK" />
+        <ethnicGroupCode nullFlavor="UNK" codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race and Ethnicity - CDC" />
+        <birthplace classCode="BIRTHPL">
+          <place determinerCode="INSTANCE">
+            <addr>
+              <city>SOUTH LIMA</city>
+              <state>NY</state>
+              <postalCode>14558</postalCode>
+              <country>US</country>
+            </addr>
+          </place>
+        </birthplace>
+        <languageCommunication>
+          <languageCode code="eng" />
+          <modeCode code="ESP" codeSystem="2.16.840.1.113883.5.60" codeSystemName="LanguageAbilityMode" displayName="Expressed spoken" />
+          <preferenceInd value="true" />
+        </languageCommunication>
+      </patient>
+      <providerOrganization classCode="ORG" determinerCode="INSTANCE">
+        <id root="1.1.1.1.1.1.1.1.4" />
+        <name>Sanket .  Virja</name>
+        <telecom value="tel:(987)654-3215" use="WP" />
+        <addr>
+          <streetAddressLine>5th, Antelia Galaxy Rich Mond street</streetAddressLine>
+          <city>MOODY</city>
+          <state>NJ</state>
+          <postalCode>35004</postalCode>
+          <country>US</country>
+        </addr>
+      </providerOrganization>
+    </patientRole>
+  </recordTarget>
+  <author typeCode="AUT" contextControlCode="OP">
+    <time value="20250714" />
+    <assignedAuthor classCode="ASSIGNED">
+      <id root="2.16.840.1.113883.3.7346" extension="111111" />
+      <addr>
+        <streetAddressLine>5th, Antelia Galaxy Rich Mond street</streetAddressLine>
+        <city>MOODY</city>
+        <state>NJ</state>
+        <postalCode>35004</postalCode>
+        <country>US</country>
+      </addr>
+      <telecom value="tel:(987)654-3215" use="WP" />
+      <assignedPerson classCode="PSN" determinerCode="INSTANCE">
+        <name>
+          <family>Virja</family>
+          <given>Sanket</given>
+        </name>
+      </assignedPerson>
+    </assignedAuthor>
+  </author>
+  <dataEnterer typeCode="ENT" contextControlCode="OP">
+    <assignedEntity classCode="ASSIGNED">
+      <id root="2.16.840.1.113883.3.7346" extension="999999943252" />
+      <addr>
+        <streetAddressLine>UNKNOWN</streetAddressLine>
+        <city>UNKNOWN</city>
+        <state>UNKNOWN</state>
+        <postalCode>UNKNOWN</postalCode>
+        <country>US</country>
+      </addr>
+      <telecom value="tel:(987)654-3215" use="WP" />
+      <assignedPerson classCode="PSN" determinerCode="INSTANCE">
+        <name>
+          <family>UNKNOWN</family>
+          <given>UNKNOWN</given>
+        </name>
+      </assignedPerson>
+    </assignedEntity>
+  </dataEnterer>
+  <informant typeCode="INF" contextControlCode="OP">
+    <assignedEntity classCode="ASSIGNED">
+      <id root="2.16.840.1.113883.19.5" extension="KP00017" />
+      <addr use="WP">
+        <streetAddressLine>5th, Antelia Galaxy Rich Mond street</streetAddressLine>
+        <city>MOODY</city>
+        <state>NJ</state>
+        <postalCode>35004</postalCode>
+        <country>US</country>
+      </addr>
+      <telecom value="tel:(987)654-3215" use="WP" />
+      <assignedPerson classCode="PSN" determinerCode="INSTANCE">
+        <name>
+          <family>Virja</family>
+          <given>Sanket</given>
+        </name>
+      </assignedPerson>
+    </assignedEntity>
+  </informant>
+  <custodian typeCode="CST">
+    <assignedCustodian classCode="ASSIGNED">
+      <representedCustodianOrganization classCode="ORG" determinerCode="INSTANCE">
+        <id root="2.16.840.1.113883.3.7346" extension="0" />
+        <name>Developer Clinic</name>
+        <telecom value="UNKNOWN" use="WP" />
+        <addr use="WP">
+          <streetAddressLine>UNKNOWN UNKNOWN</streetAddressLine>
+          <city>UNKNOWN</city>
+          <state>UNKNOWN</state>
+          <postalCode>UNKNOWN</postalCode>
+          <country>US</country>
+        </addr>
+      </representedCustodianOrganization>
+    </assignedCustodian>
+  </custodian>
+  <informationRecipient>
+    <intendedRecipient>
+      <informationRecipient classCode="PSN" determinerCode="INSTANCE">
+        <name>
+          <family>Virja</family>
+          <given>Sanket</given>
+        </name>
+      </informationRecipient>
+      <receivedOrganization classCode="ORG" determinerCode="INSTANCE">
+        <name>Developer Clinic</name>
+      </receivedOrganization>
+    </intendedRecipient>
+  </informationRecipient>
+  <legalAuthenticator typeCode="LA" contextControlCode="OP">
+    <time value="20120806" />
+    <signatureCode code="S" />
+    <assignedEntity classCode="ASSIGNED">
+      <id root="2.16.840.1.113883.3.7346" extension="999999999" />
+      <addr use="WP">
+        <streetAddressLine>5th, Antelia Galaxy Rich Mond street</streetAddressLine>
+        <city>MOODY</city>
+        <state>NJ</state>
+        <postalCode>35004</postalCode>
+        <country>US</country>
+      </addr>
+      <telecom value="tel:(888)345-3453" use="WP" />
+      <assignedPerson classCode="PSN" determinerCode="INSTANCE">
+        <name>
+          <family>Virja</family>
+          <given>Sanket</given>
+        </name>
+      </assignedPerson>
+    </assignedEntity>
+  </legalAuthenticator>
+  <documentationOf typeCode="DOC">
+    <serviceEvent classCode="PCPR" moodCode="EVN">
+      <effectiveTime>
+        <low value="202504100900+0500" />
+        <high value="202504100900+0500" />
+      </effectiveTime>
+      <performer typeCode="PRF">
+        <functionCode code="PCP" codeSystem="2.16.840.1.113883.5.88" codeSystemName="participationFunction" displayName="Primary Care Physician" />
+        <time>
+          <low value="202504100900+0500" />
+          <high value="202504100900+0500" />
+        </time>
+        <assignedEntity classCode="ASSIGNED">
+          <id root="2.16.840.1.113883.3.7346" extension="1114922002" />
+          <code code="207R00000X" codeSystem="2.16.840.1.113883.6.101" codeSystemName="NUCC Health Care Provider Taxonomy" displayName="Internal Medicine" />
+          <addr use="WP">
+            <streetAddressLine>4 PROGRESS ST SU A-9</streetAddressLine>
+            <city>EDISON</city>
+            <state>NJ</state>
+            <postalCode>08820</postalCode>
+            <country>US</country>
+          </addr>
+          <telecom value="tel:(908)769-1101" use="WP" />
+          <assignedPerson classCode="PSN" determinerCode="INSTANCE">
+            <name>
+              <family>BHATT</family>
+              <given>HARISH</given>
+            </name>
+          </assignedPerson>
+          <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+            <id root="2.16.840.1.113883.19.5.9999.1393" />
+            <name>Developer Clinic</name>
+            <telecom value="tel:(908)769-1101" use="WP" />
+            <addr use="WP">
+              <streetAddressLine>4 PROGRESS ST SU A-9</streetAddressLine>
+              <city>EDISON</city>
+              <state>NJ</state>
+              <postalCode>08820</postalCode>
+              <country>US</country>
+            </addr>
+          </representedOrganization>
+        </assignedEntity>
+      </performer>
+      <performer typeCode="PRF">
+        <functionCode code="AUTM" codeSystem="2.16.840.1.113883.5.88" codeSystemName="participationFunction" displayName="Office Manager" />
+        <time>
+          <low value="202504100900+0500" />
+          <high value="202504100900+0500" />
+        </time>
+        <assignedEntity classCode="ASSIGNED">
+          <id root="2.16.840.1.113883.3.7346" extension="8787876545" />
+          <code code="207R00000X" codeSystem="2.16.840.1.113883.6.101" codeSystemName="NUCC Health Care Provider Taxonomy" displayName="Internal Medicine" />
+          <addr use="WP">
+            <streetAddressLine>UNKNOWN</streetAddressLine>
+            <city>UNKNOWN</city>
+            <state>UNKNOWN</state>
+            <postalCode>UNKNOWN</postalCode>
+            <country>US</country>
+          </addr>
+          <telecom value="UNK" use="WP" />
+          <assignedPerson classCode="PSN" determinerCode="INSTANCE">
+            <name>
+              <family>Patel</family>
+              <given>Nikunj</given>
+            </name>
+          </assignedPerson>
+          <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+            <id root="2.16.840.1.113883.19.5.9999.1393" />
+            <name>Developer Clinic</name>
+            <telecom value="UNKNOWN" use="WP" />
+            <addr use="WP">
+              <streetAddressLine>UNKNOWN</streetAddressLine>
+              <city>UNKNOWN</city>
+              <state>UNKNOWN</state>
+              <postalCode>UNKNOWN</postalCode>
+              <country>US</country>
+            </addr>
+          </representedOrganization>
+        </assignedEntity>
+      </performer>
+    </serviceEvent>
+  </documentationOf>
+  <componentOf>
+    <encompassingEncounter classCode="ENC" moodCode="EVN">
+      <id root="8d2f5ec8-7356-4740-b6d7-6c29419ad956" />
+      <effectiveTime>
+        <low value="20250410" />
+        <high value="20250410" />
+      </effectiveTime>
+      <responsibleParty typeCode="RESP">
+        <assignedEntity classCode="ASSIGNED">
+          <id root="2.16.840.1.113883.3.7346" extension="0" />
+          <code />
+          <addr use="WP">
+            <streetAddressLine>5th, Antelia Galaxy Rich Mond street</streetAddressLine>
+            <city>MOODY</city>
+            <state>NJ</state>
+            <postalCode>35004</postalCode>
+            <country>US</country>
+          </addr>
+          <telecom value="tel:(987)654-3215" use="WP" />
+          <assignedPerson classCode="PSN" determinerCode="INSTANCE">
+            <name>
+              <family>Virja</family>
+              <given>Sanket</given>
+            </name>
+          </assignedPerson>
+        </assignedEntity>
+      </responsibleParty>
+      <location>
+        <healthCareFacility>
+          <id root="2.16.840.1.113883.3.7346" />
+          <code code="2211" />
+          <location determinerCode="INSTANCE">
+            <name>Developer Clinic</name>
+            <addr use="WP">
+              <streetAddressLine>5th, Antelia Galaxy Rich Mond street</streetAddressLine>
+              <city>MOODY</city>
+              <state>NJ</state>
+              <postalCode>35004</postalCode>
+              <country>US</country>
+            </addr>
+          </location>
+          <serviceProviderOrganization classCode="ORG" determinerCode="INSTANCE">
+            <id root="1.1.1.1.1.1.1.1.2" />
+            <name>Developer Clinic</name>
+            <telecom value="tel:(888)345-3453" use="WP" />
+            <addr use="WP">
+              <streetAddressLine>5th, Antelia Galaxy Rich Mond street</streetAddressLine>
+              <city>MOODY</city>
+              <state>NJ</state>
+              <postalCode>35004</postalCode>
+              <country>US</country>
+            </addr>
+            <standardIndustryClassCode />
+          </serviceProviderOrganization>
+        </healthCareFacility>
+      </location>
+    </encompassingEncounter>
+  </componentOf>
+  <component>
+    <structuredBody classCode="DOCBODY" moodCode="EVN">
+      <component>
+        <section classCode="DOCSECT" moodCode="EVN">
+          <templateId root="2.16.840.1.113883.10.20.22.2.10" />
+          <templateId root="2.16.840.1.113883.10.20.22.2.10" extension="2014-06-09" />
+          <code code="18776-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Treatment plan" />
+          <title>CARE PLAN</title>
+          <text mediaType="text/x-hl7-text+xml">
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>Goal/Insructions</th>
+                  <th>Date</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>&lt;![CDATA[error:Not have encounter]]&gt;</td>
+                  <td>20130627</td>
+                </tr>
+                <tr>
+                  <td>UNKNOWN</td>
+                  <td>20250410</td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+          <entry typeCode="DRIV">
+            <observation classCode="OBS" moodCode="GOL">
+              <templateId root="2.16.840.1.113883.10.20.22.4.121" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.44" />
+              <id root="2B2687B4-9D60-47EB-9B77-5BBFB821C480" />
+              <code code="18776-5" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Plan of care note" />
+              <statusCode code="active" />
+              <effectiveTime value="20130627" xsi:type="IVL_TS" />
+              <entryRelationship typeCode="RSON" inversionInd="true">
+                <act classCode="ACT" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.12" extension="2014-06-09" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.12" />
+                  <id root="9BE71CB5-103B-4387-8220-BE1D73AA9F73" />
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" displayName="patient education" />
+                  <text>&lt;![CDATA[error:Not have encounter]]&gt;</text>
+                  <statusCode code="completed" />
+                  <effectiveTime value="20130627" xsi:type="IVL_TS" />
+                </act>
+              </entryRelationship>
+            </observation>
+          </entry>
+          <entry typeCode="DRIV">
+            <observation classCode="OBS" moodCode="GOL">
+              <templateId root="2.16.840.1.113883.10.20.22.4.44" />
+              <id root="B9872A89-EC5B-402D-B345-C4E319BA6549" />
+              <code code="18776-5" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Plan of care note" />
+              <statusCode code="active" />
+              <effectiveTime value="20250410" xsi:type="IVL_TS" />
+              <entryRelationship typeCode="RSON" inversionInd="true">
+                <act classCode="ACT" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.12" extension="2014-06-09" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.12" />
+                  <id root="682DD482-6A02-4C10-B819-78EA00A5D0CB" />
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" displayName="patient education" />
+                  <text>&lt;![CDATA[]]&gt;</text>
+                  <statusCode code="completed" />
+                  <effectiveTime value="20250410" xsi:type="IVL_TS" />
+                </act>
+              </entryRelationship>
+            </observation>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section classCode="DOCSECT" moodCode="EVN">
+          <templateId root="2.16.840.1.113883.10.20.22.2.60" />
+          <code code="61146-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Goals" />
+          <title>Goals</title>
+          <text mediaType="text/x-hl7-text+xml">
+            <paragraph ID="Goals">UNKNOWN</paragraph>
+          </text>
+          <entry typeCode="DRIV">
+            <observation classCode="OBS" moodCode="GOL">
+              <templateId root="2.16.840.1.113883.10.20.22.4.121" />
+              <id nullFlavor="UNK" />
+              <code nullFlavor="UNK" />
+              <text>
+                <reference value="#Goals" />
+              </text>
+              <statusCode nullFlavor="UNK" />
+            </observation>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section classCode="DOCSECT" moodCode="EVN">
+          <templateId root="2.16.840.1.113883.10.20.22.2.58" />
+          <code code="75310-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Health Concerns Document" />
+          <title>Health Concerns</title>
+          <text mediaType="text/x-hl7-text+xml">
+            <paragraph ID="Concern">UNKNOWN</paragraph>
+          </text>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.132" extension="2015-08-01" />
+              <id nullFlavor="UNK" />
+              <code code="75310-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Health Concern" />
+              <text>
+                <reference value="#Concern" />
+              </text>
+              <statusCode code="active" />
+            </act>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section classCode="DOCSECT" moodCode="EVN">
+          <templateId root="2.16.840.1.113883.10.20.22.2.5.1" />
+          <templateId root="2.16.840.1.113883.10.20.22.2.5.1" extension="2015-08-01" />
+          <code code="11450-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="PROBLEM LIST" />
+          <title>PROBLEMS</title>
+          <text>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Status</th>
+                  <th>Note</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr ID="problemsummary_0">
+                  <td ID="problemdescription_0">UNK</td>
+                  <td ID="problemstatus_0">UNK</td>
+                  <td ID="problemnote_0" />
+                </tr>
+                <tr ID="problemsummary_1">
+                  <td ID="problemdescription_1">UNK</td>
+                  <td ID="problemstatus_1">UNK</td>
+                  <td ID="problemnote_1" />
+                </tr>
+                <tr ID="problemsummary_2">
+                  <td ID="problemdescription_2">UNK</td>
+                  <td ID="problemstatus_2">UNK</td>
+                  <td ID="problemnote_2" />
+                </tr>
+                <tr ID="problemsummary_3">
+                  <td ID="problemdescription_3">UNK</td>
+                  <td ID="problemstatus_3">UNK</td>
+                  <td ID="problemnote_3" />
+                </tr>
+              </tbody>
+            </table>
+          </text>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.3" extension="2015-08-01" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.3" />
+              <id root="48911BD5-3447-4E0C-851D-EE3526B0D6C5" />
+              <code code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern" />
+              <statusCode code="completed" />
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="UNK" />
+                <high nullFlavor="UNK" />
+              </effectiveTime>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2015-08-01" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2022-06-01" />
+                  <id root="1.3.6.1.4.1.22812.18.99930.951951951.4.1.2.1" extension="3D885343-98A0-4515-BADA-D0896E8C8325" />
+                  <code code="64572001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Condition">
+                    <translation code="75323-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Condition" />
+                  </code>
+                  <text />
+                  <statusCode code="completed" />
+                  <effectiveTime xsi:type="IVL_TS">
+                    <low nullFlavor="UNK" />
+                    <high nullFlavor="UNK" />
+                  </effectiveTime>
+                  <value xsi:type="CD" nullFlavor="UNK">
+                    <translation nullFlavor="UNK" />
+                  </value>
+                  <author typeCode="AUT" contextControlCode="OP">
+                    <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+                    <time nullFlavor="UNK" />
+                    <assignedAuthor classCode="ASSIGNED">
+                      <id root="2.16.840.1.113883.4.6" extension="1023268265" />
+                      <addr>
+                        <streetAddressLine>100 Eagle Rock Avenue line 2</streetAddressLine>
+                        <city>ROCKVILLE</city>
+                        <state>MI</state>
+                        <postalCode>20850</postalCode>
+                        <country>US</country>
+                      </addr>
+                      <telecom value="UNKNOWN" use="WP" />
+                      <assignedPerson classCode="PSN" determinerCode="INSTANCE">
+                        <name>
+                          <family>1023268265</family>
+                          <given>Organization</given>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+                        <id root="2.16.840.1.113883.4.6" extension="1234567890" />
+                        <name>EHI DEMO CLNIC LLC</name>
+                        <telecom value="UNKNOWN" use="WP" />
+                        <addr use="WP">
+                          <streetAddressLine>100 Eagle Rock Avenue line 2</streetAddressLine>
+                          <city>ROCKVILLE</city>
+                          <state>MI</state>
+                          <postalCode>20850</postalCode>
+                          <country>US</country>
+                        </addr>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <entryRelationship typeCode="SUBJ" inversionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.31" />
+                      <code code="445518008" codeSystem="2.16.840.1.113883.6.96" displayName="Age At Onset" />
+                      <statusCode code="completed" />
+                      <value xsi:type="PQ" nullFlavor="UNK" />
+                    </observation>
+                  </entryRelationship>
+                  <entryRelationship typeCode="COMP">
+                    <act classCode="ACT" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.202" extension="2016-11-01" />
+                      <code code="34109-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Note">
+                        <translation code="34117-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History And Physical note" />
+                      </code>
+                      <text>
+                        <reference value="#problemnote_0" />
+                      </text>
+                      <statusCode code="completed" />
+                      <effectiveTime nullFlavor="UNK" xsi:type="IVL_TS" />
+                      <author typeCode="AUT" contextControlCode="OP">
+                        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+                        <time nullFlavor="UNK" />
+                        <assignedAuthor classCode="ASSIGNED">
+                          <id root="2.16.840.1.113883.4.6" extension="1023268265" />
+                          <addr>
+                            <streetAddressLine>100 Eagle Rock Avenue line 2</streetAddressLine>
+                            <city>ROCKVILLE</city>
+                            <state>MI</state>
+                            <postalCode>20850</postalCode>
+                            <country>US</country>
+                          </addr>
+                          <telecom value="UNKNOWN" use="WP" />
+                          <assignedPerson classCode="PSN" determinerCode="INSTANCE">
+                            <name>
+                              <family>1023268265</family>
+                              <given>Organization</given>
+                            </name>
+                          </assignedPerson>
+                          <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+                            <id root="2.16.840.1.113883.4.6" extension="1234567890" />
+                            <name>EHI DEMO CLNIC LLC</name>
+                            <telecom value="UNKNOWN" use="WP" />
+                            <addr use="WP">
+                              <streetAddressLine>100 Eagle Rock Avenue line 2</streetAddressLine>
+                              <city>ROCKVILLE</city>
+                              <state>MI</state>
+                              <postalCode>20850</postalCode>
+                              <country>US</country>
+                            </addr>
+                          </representedOrganization>
+                        </assignedAuthor>
+                      </author>
+                    </act>
+                  </entryRelationship>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.3" extension="2015-08-01" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.3" />
+              <id root="A9E1FA51-80DC-4351-B907-F5714180045B" />
+              <code code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern" />
+              <statusCode code="completed" />
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="UNK" />
+                <high nullFlavor="UNK" />
+              </effectiveTime>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2015-08-01" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2022-06-01" />
+                  <id root="1.3.6.1.4.1.22812.18.99930.951951951.4.1.2.1" extension="A8A03D13-F4E9-4677-9B9C-2E432D1304C2" />
+                  <code code="64572001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Condition">
+                    <translation code="75323-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Condition" />
+                  </code>
+                  <text />
+                  <statusCode code="completed" />
+                  <effectiveTime xsi:type="IVL_TS">
+                    <low nullFlavor="UNK" />
+                    <high nullFlavor="UNK" />
+                  </effectiveTime>
+                  <value xsi:type="CD" nullFlavor="UNK">
+                    <translation nullFlavor="UNK" />
+                  </value>
+                  <author typeCode="AUT" contextControlCode="OP">
+                    <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+                    <time nullFlavor="UNK" />
+                    <assignedAuthor classCode="ASSIGNED">
+                      <id root="2.16.840.1.113883.4.6" extension="1023268265" />
+                      <addr>
+                        <streetAddressLine>100 Eagle Rock Avenue line 2</streetAddressLine>
+                        <city>ROCKVILLE</city>
+                        <state>MI</state>
+                        <postalCode>20850</postalCode>
+                        <country>US</country>
+                      </addr>
+                      <telecom value="UNKNOWN" use="WP" />
+                      <assignedPerson classCode="PSN" determinerCode="INSTANCE">
+                        <name>
+                          <family>1023268265</family>
+                          <given>Organization</given>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+                        <id root="2.16.840.1.113883.4.6" extension="1234567890" />
+                        <name>EHI DEMO CLNIC LLC</name>
+                        <telecom value="UNKNOWN" use="WP" />
+                        <addr use="WP">
+                          <streetAddressLine>100 Eagle Rock Avenue line 2</streetAddressLine>
+                          <city>ROCKVILLE</city>
+                          <state>MI</state>
+                          <postalCode>20850</postalCode>
+                          <country>US</country>
+                        </addr>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <entryRelationship typeCode="SUBJ" inversionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.31" />
+                      <code code="445518008" codeSystem="2.16.840.1.113883.6.96" displayName="Age At Onset" />
+                      <statusCode code="completed" />
+                      <value xsi:type="PQ" nullFlavor="UNK" />
+                    </observation>
+                  </entryRelationship>
+                  <entryRelationship typeCode="COMP">
+                    <act classCode="ACT" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.202" extension="2016-11-01" />
+                      <code code="34109-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Note">
+                        <translation code="34117-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History And Physical note" />
+                      </code>
+                      <text>
+                        <reference value="#problemnote_1" />
+                      </text>
+                      <statusCode code="completed" />
+                      <effectiveTime nullFlavor="UNK" xsi:type="IVL_TS" />
+                      <author typeCode="AUT" contextControlCode="OP">
+                        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+                        <time nullFlavor="UNK" />
+                        <assignedAuthor classCode="ASSIGNED">
+                          <id root="2.16.840.1.113883.4.6" extension="1023268265" />
+                          <addr>
+                            <streetAddressLine>100 Eagle Rock Avenue line 2</streetAddressLine>
+                            <city>ROCKVILLE</city>
+                            <state>MI</state>
+                            <postalCode>20850</postalCode>
+                            <country>US</country>
+                          </addr>
+                          <telecom value="UNKNOWN" use="WP" />
+                          <assignedPerson classCode="PSN" determinerCode="INSTANCE">
+                            <name>
+                              <family>1023268265</family>
+                              <given>Organization</given>
+                            </name>
+                          </assignedPerson>
+                          <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+                            <id root="2.16.840.1.113883.4.6" extension="1234567890" />
+                            <name>EHI DEMO CLNIC LLC</name>
+                            <telecom value="UNKNOWN" use="WP" />
+                            <addr use="WP">
+                              <streetAddressLine>100 Eagle Rock Avenue line 2</streetAddressLine>
+                              <city>ROCKVILLE</city>
+                              <state>MI</state>
+                              <postalCode>20850</postalCode>
+                              <country>US</country>
+                            </addr>
+                          </representedOrganization>
+                        </assignedAuthor>
+                      </author>
+                    </act>
+                  </entryRelationship>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.3" extension="2015-08-01" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.3" />
+              <id root="773699D1-5A2B-452D-B028-95D871E27BAE" />
+              <code code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern" />
+              <statusCode code="completed" />
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="UNK" />
+                <high nullFlavor="UNK" />
+              </effectiveTime>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2015-08-01" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2022-06-01" />
+                  <id root="1.3.6.1.4.1.22812.18.99930.951951951.4.1.2.1" extension="55E612EB-5E28-4890-B4EA-3DA9C101A547" />
+                  <code code="64572001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Condition">
+                    <translation code="75323-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Condition" />
+                  </code>
+                  <text />
+                  <statusCode code="completed" />
+                  <effectiveTime xsi:type="IVL_TS">
+                    <low nullFlavor="UNK" />
+                    <high nullFlavor="UNK" />
+                  </effectiveTime>
+                  <value xsi:type="CD" nullFlavor="UNK">
+                    <translation nullFlavor="UNK" />
+                  </value>
+                  <author typeCode="AUT" contextControlCode="OP">
+                    <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+                    <time nullFlavor="UNK" />
+                    <assignedAuthor classCode="ASSIGNED">
+                      <id root="2.16.840.1.113883.4.6" extension="1023268265" />
+                      <addr>
+                        <streetAddressLine>100 Eagle Rock Avenue line 2</streetAddressLine>
+                        <city>ROCKVILLE</city>
+                        <state>MI</state>
+                        <postalCode>20850</postalCode>
+                        <country>US</country>
+                      </addr>
+                      <telecom value="UNKNOWN" use="WP" />
+                      <assignedPerson classCode="PSN" determinerCode="INSTANCE">
+                        <name>
+                          <family>1023268265</family>
+                          <given>Organization</given>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+                        <id root="2.16.840.1.113883.4.6" extension="1234567890" />
+                        <name>EHI DEMO CLNIC LLC</name>
+                        <telecom value="UNKNOWN" use="WP" />
+                        <addr use="WP">
+                          <streetAddressLine>100 Eagle Rock Avenue line 2</streetAddressLine>
+                          <city>ROCKVILLE</city>
+                          <state>MI</state>
+                          <postalCode>20850</postalCode>
+                          <country>US</country>
+                        </addr>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <entryRelationship typeCode="SUBJ" inversionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.31" />
+                      <code code="445518008" codeSystem="2.16.840.1.113883.6.96" displayName="Age At Onset" />
+                      <statusCode code="completed" />
+                      <value xsi:type="PQ" nullFlavor="UNK" />
+                    </observation>
+                  </entryRelationship>
+                  <entryRelationship typeCode="COMP">
+                    <act classCode="ACT" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.202" extension="2016-11-01" />
+                      <code code="34109-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Note">
+                        <translation code="34117-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History And Physical note" />
+                      </code>
+                      <text>
+                        <reference value="#problemnote_2" />
+                      </text>
+                      <statusCode code="completed" />
+                      <effectiveTime nullFlavor="UNK" xsi:type="IVL_TS" />
+                      <author typeCode="AUT" contextControlCode="OP">
+                        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+                        <time nullFlavor="UNK" />
+                        <assignedAuthor classCode="ASSIGNED">
+                          <id root="2.16.840.1.113883.4.6" extension="1023268265" />
+                          <addr>
+                            <streetAddressLine>100 Eagle Rock Avenue line 2</streetAddressLine>
+                            <city>ROCKVILLE</city>
+                            <state>MI</state>
+                            <postalCode>20850</postalCode>
+                            <country>US</country>
+                          </addr>
+                          <telecom value="UNKNOWN" use="WP" />
+                          <assignedPerson classCode="PSN" determinerCode="INSTANCE">
+                            <name>
+                              <family>1023268265</family>
+                              <given>Organization</given>
+                            </name>
+                          </assignedPerson>
+                          <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+                            <id root="2.16.840.1.113883.4.6" extension="1234567890" />
+                            <name>EHI DEMO CLNIC LLC</name>
+                            <telecom value="UNKNOWN" use="WP" />
+                            <addr use="WP">
+                              <streetAddressLine>100 Eagle Rock Avenue line 2</streetAddressLine>
+                              <city>ROCKVILLE</city>
+                              <state>MI</state>
+                              <postalCode>20850</postalCode>
+                              <country>US</country>
+                            </addr>
+                          </representedOrganization>
+                        </assignedAuthor>
+                      </author>
+                    </act>
+                  </entryRelationship>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.3" extension="2015-08-01" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.3" />
+              <id root="2C7976DC-0620-4637-AF4D-C7C5A312AD0E" />
+              <code code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern" />
+              <statusCode code="completed" />
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="UNK" />
+                <high nullFlavor="UNK" />
+              </effectiveTime>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2015-08-01" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2022-06-01" />
+                  <id root="1.3.6.1.4.1.22812.18.99930.951951951.4.1.2.1" extension="48428FB1-128C-4243-930D-021BB0A98F24" />
+                  <code code="64572001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Condition">
+                    <translation code="75323-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Condition" />
+                  </code>
+                  <text />
+                  <statusCode code="completed" />
+                  <effectiveTime xsi:type="IVL_TS">
+                    <low nullFlavor="UNK" />
+                    <high nullFlavor="UNK" />
+                  </effectiveTime>
+                  <value xsi:type="CD" nullFlavor="UNK">
+                    <translation nullFlavor="UNK" />
+                  </value>
+                  <author typeCode="AUT" contextControlCode="OP">
+                    <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+                    <time nullFlavor="UNK" />
+                    <assignedAuthor classCode="ASSIGNED">
+                      <id root="2.16.840.1.113883.4.6" extension="1023268265" />
+                      <addr>
+                        <streetAddressLine>100 Eagle Rock Avenue line 2</streetAddressLine>
+                        <city>ROCKVILLE</city>
+                        <state>MI</state>
+                        <postalCode>20850</postalCode>
+                        <country>US</country>
+                      </addr>
+                      <telecom value="UNKNOWN" use="WP" />
+                      <assignedPerson classCode="PSN" determinerCode="INSTANCE">
+                        <name>
+                          <family>1023268265</family>
+                          <given>Organization</given>
+                        </name>
+                      </assignedPerson>
+                      <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+                        <id root="2.16.840.1.113883.4.6" extension="1234567890" />
+                        <name>EHI DEMO CLNIC LLC</name>
+                        <telecom value="UNKNOWN" use="WP" />
+                        <addr use="WP">
+                          <streetAddressLine>100 Eagle Rock Avenue line 2</streetAddressLine>
+                          <city>ROCKVILLE</city>
+                          <state>MI</state>
+                          <postalCode>20850</postalCode>
+                          <country>US</country>
+                        </addr>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <entryRelationship typeCode="SUBJ" inversionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.31" />
+                      <code code="445518008" codeSystem="2.16.840.1.113883.6.96" displayName="Age At Onset" />
+                      <statusCode code="completed" />
+                      <value xsi:type="PQ" nullFlavor="UNK" />
+                    </observation>
+                  </entryRelationship>
+                  <entryRelationship typeCode="COMP">
+                    <act classCode="ACT" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.202" extension="2016-11-01" />
+                      <code code="34109-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Note">
+                        <translation code="34117-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History And Physical note" />
+                      </code>
+                      <text>
+                        <reference value="#problemnote_3" />
+                      </text>
+                      <statusCode code="completed" />
+                      <effectiveTime nullFlavor="UNK" xsi:type="IVL_TS" />
+                      <author typeCode="AUT" contextControlCode="OP">
+                        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+                        <time nullFlavor="UNK" />
+                        <assignedAuthor classCode="ASSIGNED">
+                          <id root="2.16.840.1.113883.4.6" extension="1023268265" />
+                          <addr>
+                            <streetAddressLine>100 Eagle Rock Avenue line 2</streetAddressLine>
+                            <city>ROCKVILLE</city>
+                            <state>MI</state>
+                            <postalCode>20850</postalCode>
+                            <country>US</country>
+                          </addr>
+                          <telecom value="UNKNOWN" use="WP" />
+                          <assignedPerson classCode="PSN" determinerCode="INSTANCE">
+                            <name>
+                              <family>1023268265</family>
+                              <given>Organization</given>
+                            </name>
+                          </assignedPerson>
+                          <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+                            <id root="2.16.840.1.113883.4.6" extension="1234567890" />
+                            <name>EHI DEMO CLNIC LLC</name>
+                            <telecom value="UNKNOWN" use="WP" />
+                            <addr use="WP">
+                              <streetAddressLine>100 Eagle Rock Avenue line 2</streetAddressLine>
+                              <city>ROCKVILLE</city>
+                              <state>MI</state>
+                              <postalCode>20850</postalCode>
+                              <country>US</country>
+                            </addr>
+                          </representedOrganization>
+                        </assignedAuthor>
+                      </author>
+                    </act>
+                  </entryRelationship>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section nullFlavor="NI" classCode="DOCSECT" moodCode="EVN">
+          <templateId root="2.16.840.1.113883.10.20.22.2.6" extension="2015-08-01" />
+          <templateId root="2.16.840.1.113883.10.20.22.2.6" />
+          <templateId root="2.16.840.1.113883.10.20.22.2.6.1" extension="2015-08-01" />
+          <templateId root="2.16.840.1.113883.10.20.22.2.6.1" />
+          <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" />
+          <title>ALLERGIES, ADVERSE REACTIONS, ALERTS</title>
+          <text mediaType="text/x-hl7-text+xml">No Information</text>
+        </section>
+      </component>
+      <component>
+        <section classCode="DOCSECT" moodCode="EVN">
+          <templateId root="2.16.840.1.113883.10.20.22.2.12" />
+          <code code="29299-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Reason for Visit" />
+          <title>Reason for Visit</title>
+          <text mediaType="text/x-hl7-text+xml">UNKNOWN</text>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.4"/>
+          <templateId root="2.16.840.1.113883.10.20.22.2.4.1" extension="2015-08-01"/>
+          <code code="8716-3" codeSystem="2.16.840.1.113883.6.1" displayName="Vital Signs"/>
+          <title>Vital Signs</title>
+          <text>
+            <table border="1" width="100%">
+              <thead>
+                <tr>
+                  <th>Vital</th>
+                  <th>Value</th>
+                  <th>Date</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Blood Pressure</td>
+                  <td>120/80 mmHg</td>
+                  <td>20240701</td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+          <entry>
+            <organizer classCode="CLUSTER" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.26"/>
+              <templateId root="2.16.840.1.113883.10.20.22.4.26" extension="2015-08-01"/>
+              <id root="1.2.3.4.5.6.7.8.9.10"/>
+              <code code="46680005" codeSystem="2.16.840.1.113883.6.96" displayName="Vital Signs">
+                <translation code="74728-7" codeSystem="2.16.840.1.113883.6.1" displayName="Vital signs panel"/>
+              </code>
+              <statusCode code="completed"/>
+              <effectiveTime value="20240714"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <!-- R1.1 and R2.1 TemplateIds -->
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" extension="2014-06-09"/>
+
+                  <id root="1.2.3.4.5.6.7.8.9.11"/>
+                  <code code="8480-6" codeSystem="2.16.840.1.113883.6.1" displayName="Systolic blood pressure"/>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20240714"/>
+                  <value xsi:type="PQ" value="120" unit="mm[Hg]"/>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <!-- R1.1 and R2.1 TemplateIds -->
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" extension="2014-06-09"/>
+
+                  <id root="1.2.3.4.5.6.7.8.9.12"/>
+                  <code code="8462-4" codeSystem="2.16.840.1.113883.6.1" displayName="Diastolic blood pressure"/>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20240714"/>
+                  <value xsi:type="PQ" value="80" unit="mm[Hg]"/>
+                </observation>
+              </component>
+
+            </organizer>
+
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section classCode="DOCSECT" moodCode="EVN">
+          <templateId root="2.16.840.1.113883.10.20.22.2.17" extension="2015-08-01" />
+          <templateId root="2.16.840.1.113883.10.20.22.2.17" />
+          <code code="29762-2" codeSystem="2.16.840.1.113883.6.1" displayName="Social History" />
+          <title>SOCIAL HISTORY</title>
+          <text mediaType="text/x-hl7-text+xml">No Social History Information</text>
+        </section>
+      </component>
+      <component>
+        <section classCode="DOCSECT" moodCode="EVN">
+          <templateId root="2.16.840.1.113883.10.20.22.2.14" />
+          <code code="47420-5" codeSystem="2.16.840.1.113883.6.1" />
+          <title>FUNCTIONAL STATUS</title>
+          <text mediaType="text/x-hl7-text+xml">
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>Assessment</th>
+                  <th>Date</th>
+                  <th>Results</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td ID="Functional0">Functional Status</td>
+                  <td>04/10/2025</td>
+                  <td>No Impairment</td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+          <entry typeCode="DRIV">
+            <observation classCode="OBS" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.67" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.67" extension="2014-06-09" />
+              <id root="37990C4C-E7D9-46D1-943B-2CCE31406299" />
+              <code code="54522-8" codeSystem="2.16.840.1.113883.6.1" displayName="Functional status" />
+              <text>
+                <reference value="#Functional0" />
+              </text>
+              <statusCode code="completed" />
+              <effectiveTime xsi:type="IVL_TS">
+                <low value="20250410" />
+                <high value="20250410" />
+              </effectiveTime>
+              <value xsi:type="CD" code="66557003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="No Impairment" />
+            </observation>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section classCode="DOCSECT" moodCode="EVN">
+          <templateId root="2.16.840.1.113883.10.20.22.2.56" extension="2015-08-01" />
+          <code code="10190-7" codeSystem="2.16.840.1.113883.6.1" displayName="MENTAL STATUS" />
+          <title>MENTAL STATUS</title>
+          <text mediaType="text/x-hl7-text+xml">
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>Assessment</th>
+                  <th>Date</th>
+                  <th>Results</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td ID="Cognitive0">Cognitive Status</td>
+                  <td>NA</td>
+                  <td>NA</td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+        </section>
+      </component>
+      <component>
+        <section nullFlavor="NI" classCode="DOCSECT" moodCode="EVN">
+          <templateId root="2.16.840.1.113883.10.20.22.2.3.1" extension="2015-08-01" />
+          <templateId root="2.16.840.1.113883.10.20.22.2.3.1" />
+          <code code="30954-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="RESULTS" />
+          <title>RESULTS</title>
+          <text mediaType="text/x-hl7-text+xml">Laboratory Test: None needed. Laboratory Values/Results: No Lab Result data</text>
+        </section>
+      </component>
+      <component>
+        <section classCode="DOCSECT" moodCode="EVN">
+          <templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.1" />
+          <templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.1" extension="2014-06-09" />
+          <code code="42349-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="REASON FOR REFERRAL" />
+          <title>REASON FOR REFERRAL</title>
+          <text mediaType="text/x-hl7-text+xml">No Information</text>
+        </section>
+      </component>
+      <component>
+        <section classCode="DOCSECT" moodCode="EVN">
+          <templateId root="2.16.840.1.113883.10.20.22.2.1" />
+          <templateId root="2.16.840.1.113883.10.20.22.2.1" extension="2014-06-09" />
+          <templateId root="2.16.840.1.113883.10.20.22.2.1.1" />
+          <templateId root="2.16.840.1.113883.10.20.22.2.1.1" extension="2014-06-09" />
+          <code code="10160-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="HISTORY OF MEDICATION USE" />
+          <title>Medications</title>
+          <text>No Information</text>
+          <entry typeCode="DRIV">
+            <substanceAdministration classCode="SBADM" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16" extension="2014-06-09" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.16" />
+              <id root="2FA8FB65-9C4B-45F7-8527-8C708CA9806C" />
+              <text>
+                <reference value="#Medication0" />
+              </text>
+              <statusCode code="active" />
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="UNK" />
+                <high nullFlavor="UNK" />
+              </effectiveTime>
+              <routeCode nullFlavor="UNK" />
+              <doseQuantity nullFlavor="UNK" />
+              <rateQuantity />
+              <consumable typeCode="CSM">
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23" extension="2014-06-09" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23" />
+                  <id root="9FA3B55C-03EC-458E-807B-FB59A96F3AF6" />
+                  <manufacturedMaterial classCode="MMAT">
+                    <code nullFlavor="OTH" codeSystem="2.16.840.1.113883.6.88">
+                      <translation code="410942007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Drug or medicament" />
+                    </code>
+                  </manufacturedMaterial>
+                  <manufacturerOrganization classCode="ORG" determinerCode="INSTANCE">
+                    <name>UNKNOWN</name>
+                  </manufacturerOrganization>
+                </manufacturedProduct>
+              </consumable>
+            </substanceAdministration>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section classCode="DOCSECT" moodCode="EVN">
+          <templateId root="2.16.840.1.113883.10.20.22.2.22.1" extension="2015-08-01" />
+          <templateId root="2.16.840.1.113883.10.20.22.2.22.1" />
+          <code code="46240-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of encounters" />
+          <title>ENCOUNTERS</title>
+          <text mediaType="text/x-hl7-text+xml">
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>Encounter</th>
+                  <th>Performer</th>
+                  <th>Location</th>
+                  <th>Encounter Date</th>
+                  <th>Encounter Diagnosis</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td ID="EncEncounter0">58</td>
+                  <td ID="EncPerformer0">Sanket - Virja</td>
+                  <td ID="EncLocation0">UNKNOWN</td>
+                  <td ID="EncDate0">2025-04-10</td>
+                  <td ID="EncDiag0" />
+                </tr>
+              </tbody>
+            </table>
+          </text>
+          <entry typeCode="DRIV">
+            <encounter classCode="ENC" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.49" extension="2015-08-01" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.49" />
+              <id root="59A9622A-31A4-4232-9266-49A8BF4DF26E" />
+              <code code="99213" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT-4" displayName="UNKNOWN">
+                <originalText>
+                  <reference value="#EncEncounter0" />
+                </originalText>
+              </code>
+              <effectiveTime value="20250410" />
+              <performer>
+                <assignedEntity classCode="ASSIGNED">
+                  <id root="2.16.840.1.113883.4.6" extension="9874561232" />
+                  <code code="207R00000X" codeSystem="2.16.840.1.113883.6.101" codeSystemName="NUCC Health Care Provider Taxonomy" displayName="Internal Medicine" />
+                  <assignedPerson classCode="PSN" determinerCode="INSTANCE">
+                    <name>
+                      <family>Virja</family>
+                      <given>Sanket</given>
+                      <prefix>Dr.</prefix>
+                    </name>
+                  </assignedPerson>
+                </assignedEntity>
+              </performer>
+              <entryRelationship typeCode="RSON">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.19" extension="2014-06-09" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.19" />
+                  <id root="F6EC2D7F-66F4-4123-B194-4671810DF286" extension="45665" />
+                  <code code="404684003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Finding" />
+                  <statusCode nullFlavor="UNK" />
+                  <effectiveTime value="20250410">
+                    <low />
+                  </effectiveTime>
+                  <value xsi:type="CD" codeSystem="2.16.840.1.113883.6.96" displayName="UNKNOWN" />
+                </observation>
+              </entryRelationship>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2015-08-01"/>
+                  <id root="1.2.3.4.5.6.7.8.9"/>
+                  <code code="282291009" codeSystem="2.16.840.1.113883.6.96" displayName="Diagnosis">
+                    <translation code="75326-9" codeSystem="2.16.840.1.113883.6.1" displayName="Problem"/>
+                  </code>
+                  <statusCode code="completed"/>
+                  <effectiveTime>
+                    <low value="20240701"/>
+                  </effectiveTime>
+                  <value xsi:type="CD" code="233604007" codeSystem="2.16.840.1.113883.6.96" displayName="Pneumonia"/>
+                </observation>
+              </entryRelationship>
+              <entryRelationship typeCode="COMP">
+                <act classCode="ACT" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.64" />
+                  <code code="48767-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Annotation Comment" />
+                  <text>&lt;![CDATA[(LD) 2-D ECHO]]&gt;<reference value="#EncEncounter0" /></text>
+                  <statusCode code="completed" />
+                </act>
+              </entryRelationship>
+            </encounter>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section classCode="DOCSECT" moodCode="EVN">
+          <templateId root="2.16.840.1.113883.10.20.22.2.45" />
+          <code code="69730-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="INSTRUCTIONS" />
+          <title>INSTRUCTIONS</title>
+          <text mediaType="text/x-hl7-text+xml">UNKNOWN</text>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+</ClinicalDocument>
