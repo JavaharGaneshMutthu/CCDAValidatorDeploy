@@ -1,20 +1,26 @@
-# Use official Tomcat
-FROM tomcat:9-jdk11
+# ---- Build stage (does nothing but copy files) ----
+FROM tomcat:9-jdk11 as builder
+WORKDIR /app
 
-# Increase memory (optional)
+# Copy validator files
+COPY referenceccdaservice.war /app/
+COPY vocabulary/ /app/vocabulary/
+COPY ccdaReferenceValidatorConfig.xml /app/
+COPY referenceccdaservice.xml /app/
+
+# ---- Run stage ----
+FROM tomcat:9-jdk11
 ENV CATALINA_OPTS="-Xms512m -Xmx1024m"
 
-# Remove default ROOT app
+# Remove default ROOT
 RUN rm -rf /usr/local/tomcat/webapps/ROOT
 
-# Copy your WAR file
-COPY referenceccdaservice.war /usr/local/tomcat/webapps/ROOT.war
+# Copy built files from builder stage
+COPY --from=builder /app/referenceccdaservice.war /usr/local/tomcat/webapps/ROOT.war
+COPY --from=builder /app/vocabulary/ /usr/local/tomcat/vocabulary/
+COPY --from=builder /app/ccdaReferenceValidatorConfig.xml /usr/local/tomcat/conf/
+COPY --from=builder /app/referenceccdaservice.xml /usr/local/tomcat/conf/Catalina/localhost/
 
-# Copy full config folder (this includes configs_folder, scenarios, and vocabulary)
-COPY config /usr/local/tomcat/config
-
-# Expose port
 EXPOSE 8080
 
-# Start Tomcat
 CMD ["catalina.sh", "run"]
