@@ -1,13 +1,17 @@
 FROM tomcat:9-jdk11
 
-# 1. Clean out default Tomcat apps to save memory
+# Delete default apps
 RUN rm -rf /usr/local/tomcat/webapps/*
 
-# 2. Copy the WAR using the EXACT name the logs showed: referenceccdaservice
-COPY referenceccdaservice.war /usr/local/tomcat/webapps/referenceccdaservice.war
-
-# 3. Create a log directory so Logback doesn't fail (Your logs showed it looking here)
+# Create log directory (your logs showed your app needs this)
 RUN mkdir -p /usr/local/tomcat/logs/
 
+# Copy the WAR
+COPY referenceccdaservice.war /usr/local/tomcat/webapps/referenceccdaservice.war
+
+# Explicitly tell the environment we use 8080
+ENV PORT=8080
 EXPOSE 8080
+
+# Run Tomcat on 8080
 CMD ["catalina.sh", "run"]
