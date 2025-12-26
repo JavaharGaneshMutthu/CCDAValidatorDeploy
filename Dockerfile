@@ -1,15 +1,16 @@
 FROM tomcat:9-jdk8-openjdk
 
-# 1. Clean default apps
+# 1. Clear default apps
 RUN rm -rf /usr/local/tomcat/webapps/*
 
-# 2. DISABLE THE SHUTDOWN PORT (Fixes the "Invalid shutdown command" error)
+# 2. DISABLE THE SHUTDOWN PORT 
+# This line finds port 8005 and changes it to -1 (disabled)
 RUN sed -i 's/port="8005" shutdown="SHUTDOWN"/port="-1" shutdown="SHUTDOWN"/g' /usr/local/tomcat/conf/server.xml
 
 # 3. Create the config directory
 RUN mkdir -p /usr/local/tomcat/reference-validator/configuration
 
-# 4. Copy your folder and WAR (Ensure 'configuration' is a folder on GitHub)
+# 4. Copy your folder and WAR
 COPY configuration/ /usr/local/tomcat/reference-validator/configuration/
 COPY referenceccdaservice.war /usr/local/tomcat/webapps/ROOT.war
 
